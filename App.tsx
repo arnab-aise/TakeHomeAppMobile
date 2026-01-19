@@ -6,10 +6,7 @@
  */
 
 import { StatusBar, StyleSheet, useColorScheme } from 'react-native';
-import {
-  SafeAreaProvider,
-  SafeAreaView,
-} from 'react-native-safe-area-context';
+import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { WebView } from 'react-native-webview';
 
 function App() {
